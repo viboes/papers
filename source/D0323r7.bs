@@ -1,23 +1,22 @@
 <pre class='metadata'>
 Title: std::expected
-Shortname: P0323
-Revision: 6
+Shortname: D0323
+Revision: 7
 Audience: LWG
-Status: P
+Status: D
 Group: WG21
-URL: https://wg21.link/P0323r6
-!Source: <a href="https://github.com/jfbastien/papers/blob/master/source/P0323r6.bs">github.com/jfbastien/papers/blob/master/source/P0323r6.bs</a>
+URL: https://wg21.link/P0323r7
+!Source: <a href="https://github.com/jfbastien/papers/blob/master/source/P0323r6.bs">github.com/jfbastien/papers/blob/master/source/D0323r7.bs</a>
 Editor: Vicente Botet, Nokia, vicente.botet@nokia.com
 Editor: JF Bastien, Apple, jfbastien@apple.com
 Abstract: Utility class to represent expected object: wording and open questions.
-Date: 2018-04-02
+Date: 2018-04-04
 Markup Shorthands: markdown yes
 </pre>
 
-This paper revises [[P0323r5]], which applied feedback obtained from LEWG and
-EWG.
+This paper revises P0323 r6.
 
-r6 takes in account the LWG feedback in Jacksonville.
+r6 toke in account the LWG feedback in Jacksonville.
 
   * Locate `unexpected` inside `<expected>` header and section.
   * Define friend functions for equality operators and `swap`.
@@ -35,7 +34,7 @@ We have added some additional open points that have not been identified previous
 These should be fixed in another paper if LEWG considered the fix necessary.
 
 [[P0323r4]] contains motivation, design rationale, implementability information,
-sample usage, history, alternative designs and related types. r6 and r5 only
+sample usage, history, alternative designs and related types. r7, r6 and r5 only
 contain wording and open questions because their purpose is twofold:
 
   * Present appropriate wording for inclusion in the Library Fundamentals TS v3.
